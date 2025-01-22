@@ -1,0 +1,42 @@
+﻿@model BirthdayModel
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css"/>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+</head>
+<body>
+    <h1> Age Calculator</h1>
+    <form asp-action="Index" method="post" class="container">
+        <div asp-validation-summary="All"></div>
+        <div class="mb-3">
+            <label asp-for="Name" class="form-label">Name:</label>
+            <input asp-for="Name" class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label asp-for="BirthDay" class="form-label">Birth day:</label>
+            <input asp-for="BirthDay" class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label asp-for="BirthMonth" class="form-label">Birth month:</label>
+            <input asp-for="BirthMonth" class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label asp-for="BirthYear" class="form-label">Birth year:</label>
+            <input asp-for="BirthYear" class="form-control" />
+        </div>
+        <div class="mb-3">
+            <label class="form-control">@ViewBag.Output</label>
+        </div>
+        <div class="mb-3">
+            <button type="submit" class="btn btn-primary">Calculate</button>
+            <a asp-action="Index" class="btn btn-outline-secondary">Clear</a>
+        </div>
+    </form>
+</body>
+</html>
