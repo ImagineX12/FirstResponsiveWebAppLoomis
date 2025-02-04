@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FirstResponsiveWebAppLoomis")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+061ac5855c6ac14287b871663ccf038c381cb254")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+49bff4b9afde24e3e7e08b0ce1d52d7475d36e21")]
 [assembly: System.Reflection.AssemblyProductAttribute("FirstResponsiveWebAppLoomis")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FirstResponsiveWebAppLoomis")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
